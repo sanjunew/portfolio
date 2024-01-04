@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    background-color: rgb(11, 1, 17);
+    overflow: hidden;
+    padding-left: 35rem;
+}
+.heading {
+    font-size: 40px;
+    color: white;
+    -webkit-box-reflect: below -20px
+    linear-gradient(transparent, rgba(0,0,0,0.2));
+}
+.heading span {
+    
+    color: yellow;
+    font-family: "alfa slab one",cursive;
+    display: inline-block;
+    animation: wave-animi 2s infinite;
+    animation-delay: calc(0.1s * var(--item));
+}
+@keyframes wave-animi {
+    0%,
+    40%,
+    100% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(-20px);
+    }
+}
+
+
+.title{
+    font-size: 40px;
+    color: white;
+    -webkit-box-reflect: below -20px
+    linear-gradient(transparent, rgba(0,0,0,0.2));
+}
+
+.title span{
+    color: yellow;
+    font-family: "alfa slab one",cursive;
+    display: inline-block;
+    animation: wave-animi 2s infinite;
+    animation-delay: calc(0.1s * var(--item));
+}
+@keyframes wave-animi {
+    0%,
+    40%,
+    100% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(-20px);
+    }
+}
+
+.head{
+    font-size: 40px;
+    color: white;
+    -webkit-box-reflect: below -20px
+    linear-gradient(transparent, rgba(0,0,0,0.2));
+}
+.head span{
+    color: yellow;
+    font-family: "alfa slab one",cursive;
+    display: inline-block;
+    animation: wave-animi 2s infinite;
+    animation-delay: calc(0.1s * var(--item));
+}
+@keyframes wave-animi {
+    0%,
+    40%,
+    100% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(-20px);
+    }
+}
+.pro{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 5rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+.pro span{
+    color: yellow;
+}
+header{
+    border-style: groove;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    background-color: rgb(11, 1, 17);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+header .user img{
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: .5rem solid;
+    transition: transform 400ms;
+}
+header .user img:hover
+{
+    border: 2px solid yellow;
+    box-shadow: yellow 0px 0px 12px 1px inset,
+    yellow 0px 0px 12px 1px;
+}
+
+header .user .nm{
+    font-size:2rem;
+    color: #fff;
+}
+
+header .user .jb{
+    font-size:1rem;
+    color: #fff;
+}
+
+header .nv{
+    width: 100%;
+}
+header .nv ul{
+    list-style: none;
+    padding: 1rem ;
+}
+
+header .nv ul li a{
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    background: #333;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 5rem;
+    text-decoration: none;  
+}
+header .nv ul li a:hover{
+    transform: translateX(5px) translateY(5px);
+    box-shadow: yellow 7px 9px 0px;
+    border: 2px solid white;
+
+}
+
+.Details .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.Details .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Details .Row .det h3{
+    font-size: 2rem;
+    color: rgb(179, 179, 172);
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Details .Row .det h3 span{
+    color: #eee;
+    padding: 0. 5rem;
+}
+table,th,td{
+    border: 1px solid yellow;
+    border-collapse: collapse;
+}
+td{
+    color: rgb(179, 179, 172);
+    padding: 1rem;
+}
+th{
+    color: white;
+    padding: 1rem;
+}
+table{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 2rem;
+    padding: 1rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+#lis li{
+    margin: 0 9rem;
+    color: white;
+    font-size: medium;
+    padding: .5rem 1rem;
+}
+.Project .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.Project .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Project .Row .det h3{
+    font-size: 2rem;
+   color: rgb(179, 179, 172);
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Project .Row .det h3 span{
+    color: #eee;
+    padding: 0. 5rem;
+}
